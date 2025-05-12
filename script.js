@@ -4,18 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const calculateBtn = document.getElementById("calculateBtn");
   const totalTipSpan = document.getElementById("totalTip");
 
-  // 1. Change event (user leaves input)
-  tipInput.addEventListener("change", () => {
+tipInput.addEventListener("change", () => {
     console.log("Tip percentage changed to:", tipInput.value);
   });
 
-  // 2. Input event (live typing)
-  billInput.addEventListener("input", () => {
+billInput.addEventListener("input", () => {
     billInput.style.backgroundColor = "#e0f7fa"; // simple visual feedback
   });
 
-  // 3. Click event (calculate tip)
-  calculateBtn.addEventListener("click", (e) => {
+calculateBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
     const bill = parseFloat(billInput.value);

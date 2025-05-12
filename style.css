@@ -1,4 +1,3 @@
-/* General page styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -9,7 +8,6 @@ body {
   align-items: center;
 }
 
-/* Container for calculator */
 .container {
   background-color: #ffffff;
   padding: 25px 20px;
@@ -19,14 +17,13 @@ body {
   text-align: center;
 }
 
-/* Heading */
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Labels and input fields */
+
 label {
   display: block;
   margin-top: 10px;
@@ -45,7 +42,6 @@ input {
   font-size: 16px;
 }
 
-/* Button styling */
 button {
   width: 100%;
   padding: 12px;
@@ -62,7 +58,6 @@ button:hover {
   background-color: #218838;
 }
 
-/* Result section */
 .result {
   margin-top: 20px;
 }
